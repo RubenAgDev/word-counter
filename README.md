@@ -4,7 +4,7 @@ A counter of words to create beautiful and memorable memories
 ## How to start
 1. Download the repository.
 2. > npm install
-3. > node main << place_the_path_of_the_input_file_(txt) >>
+3. > npm start << place_the_path_of_the_input_file_(txt) >>
 4. Copy the output from the console for now.
 
 ## config options
