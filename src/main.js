@@ -1,9 +1,10 @@
 'use strict';
-var fs = require('fs');
-var handlebars = require('handlebars');
-var config = require('./config');
 
-var inputFilename = '';
+const fs = require('fs');
+const handlebars = require('handlebars');
+const config = require('./config');
+
+let inputFilename = '';
 
 if(process.argv.length > 2){
   inputFilename = process.argv[2];
